@@ -1,0 +1,18 @@
+.carousel .btn{
+    border: 1px solid rgba(255, 255, 255, 0.5) !important; 
+    border-radius: 40px !important;
+    padding:20px 30px !important;
+    background: transparent !important;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    color: white !important;
+    cursor: pointer;
+    font-size: 12px !important;
+    letter-spacing: 2px;
+    font-weight: 600 !important;
+}
+.carousel .warning{
+    background-color: #ffbd39 !important;
+    color: rgb(0, 0, 0) !important;
+    border:1px  solid  #ffbd39 !important
+}

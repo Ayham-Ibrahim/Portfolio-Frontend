@@ -1,0 +1,15 @@
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #000000;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+
+.ftco-section {
+    padding: 6em 0;
+    position: relative;
+  }

@@ -1,0 +1,85 @@
+.modal {
+    display: block;
+    backdrop-filter: blur(7px);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content {
+    background-color: rgb(11, 11, 11);
+    position: relative;
+    border:1px solid #606060;
+    box-shadow: #ffffff 0px 0px 10px;
+
+}
+.modal-header,
+.modal-footer {
+    border: none;
+}
+
+.modal-header {
+    margin: 0 1rem;
+}
+
+.modal-header .btn {
+    position: absolute;
+    top: 0.2rem;
+    padding: 0;
+    right: 1rem;
+    
+}
+.modal-header .btn span {
+    font-size:2rem;
+    color: #606060;
+    transition: 0.3s;
+}
+.modal-header .btn:hover span {
+    color: #dadada; 
+}
+
+.modal-body .tags {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.modal-body .tags .tag {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid #ffbd39;
+    cursor:pointer;
+}
+.modal-body .card-text {
+    font-size: 1.2rem;
+    margin-top: 0.6rem;
+}
+.modal-image {
+    margin: 1rem 1rem 0rem 1rem ;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-body .card-title {
+    color: white;
+    font-size: 1.7rem !important;
+    margin-top: 1rem;
+}
+.modal-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+.github-icon,
+.link-icon {
+    color:#606060;
+    font-size: 30px;
+    transition: 0.3s;
+    
+}
+
+.github-icon:hover,
+.link-icon:hover {
+    color: #dadada;
+}

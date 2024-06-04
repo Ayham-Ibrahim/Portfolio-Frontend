@@ -1,0 +1,48 @@
+.HireMe {
+  padding: 9em 0;
+  position: relative;
+  background: #ffbd39;
+  z-index: -1;
+}
+.HireMe h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+}
+.HireMe h2 span {
+  color: #ffbd39;
+}
+@media (min-width: 992px) {
+  .margin-top {
+    margin-top: -70px;
+    padding-top: 10em !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .HireMe {
+    padding: 6em 0;
+  }
+}
+.img {
+  vertical-align: middle;
+  border-style: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.px-5 {
+  padding-right: 3rem !important;
+}
+.py-3 {
+  padding-top: 1rem !important;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.button {
+  background: #ffbd39;
+  border: 1px solid #ffbd39;
+  color: #000000;
+  border-radius: 40px;
+}

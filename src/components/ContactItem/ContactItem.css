@@ -1,0 +1,33 @@
+.contact-section .box .icon {
+    width: 6.25rem;
+    height: 6.25rem;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 2em;
+    border-radius: 50%;
+}
+
+.contact-section .box .icon span {
+    color: #ffbd39;
+    font-size: 2.2rem;
+}
+.contact-section .box h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.contact-section .box p {
+    font-size: 1.1rem;
+}
+
+@media ( min-width:768px) and (max-width: 992px) {
+    .contact-section .box h3 {
+        font-size: 0.7rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .contact-section .box p {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,81 @@
+.project-section .card {
+    border: 0.2px solid #4b4b4b;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background-color: rgb(11, 11, 11);
+    padding: 0;
+}
+.project-section .card:hover {
+    transition: 0.5s;
+    rotate: 1deg;
+    scale: 1.01;
+    /* border-color:#ffbd39; */
+    box-shadow: #ffbd39 0px 0px 10px ;
+}
+.project-section .card-img-top {
+    padding: 1rem 1rem 0.2rem 1rem;
+    border-radius: 19px;
+    width: 100%; /* Make the image fill the width of its parent container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Maximum width of the image */
+    max-height: 200px; /* Maximum height of the image */
+    object-fit: cover; /* Cover the area without distorting the image */
+
+}
+.project-section .card-body {
+    color: white;
+    border-radius: 0px 0px 3px 3px;
+}
+.project-section .card .tags {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    gap: 8px;
+}
+
+.project-section .card .tags .tag {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 10px;
+    border: 1px solid #ffbd39;
+    cursor:pointer;
+}
+
+.project-section .card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin:4px 0px 0px 0px ;
+    overflow: hidden; /* Hide text that overflows */
+    text-overflow: ellipsis; /* Add an ellipsis when text overflows */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    max-width: 100%; /* Ensure the text container takes full width */
+}
+.project-section .card .date {
+    font-size: 14px;
+    font-weight: 400;
+    color:rgba(177, 178, 179, 0.5);
+}
+.project-section .card-text {
+    color:rgba(177, 178, 179, 0.6);
+    line-height: 1.4;
+    overflow: hidden; /* Hide text that overflows */
+    text-overflow: ellipsis; /* Add an ellipsis when text overflows */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    max-width: 100%; /* Ensure the text container takes full width */
+    display: inline-block; 
+}
+
+.project-section .card .btn  {
+    background-color:#ffbd39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-section .card-button {
+    display: flex;
+    justify-content: center;
+}
