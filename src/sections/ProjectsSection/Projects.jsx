@@ -9,7 +9,6 @@ const Projects = () => {
   const [modal, setModal] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
   const [projects, setProjects] = useState([]);
-
   const toggleModal = (project) => {
     setSelectedProject(project)
     setModal(!modal);

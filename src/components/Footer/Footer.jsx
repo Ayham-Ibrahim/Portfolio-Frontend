@@ -61,7 +61,7 @@ const Footer = () => {
           <div className="col-md-12 text-center">
             <p className='footer-text'>
               {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-              © {new Date().getFullYear()} All rights reserved | This template is made with <FaHeart /> by <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
+              © {new Date().getFullYear()} All rights reserved | This template is made with <FaHeart /> by <a href="https://github.com/Ayham-Ibrahim" target="_blank" rel="noopener noreferrer">Ayham Ibrahim</a>
               {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
             </p>
           </div>

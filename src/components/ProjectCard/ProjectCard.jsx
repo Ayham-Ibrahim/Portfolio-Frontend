@@ -3,7 +3,6 @@ import "./ProjectCard.css"
 // eslint-disable-next-line react/prop-types
 const ProjectCard = ({project,toggleModal}) => {
     if (!project) {
-      // console.log(project);
       return <div>Loading...</div>; 
     }
     return (
